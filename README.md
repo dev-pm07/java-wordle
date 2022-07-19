@@ -1,4 +1,4 @@
-# The New York Times' famous game "Wordle" in Java.
+# The New York Times' Famous Game "Wordle" in Java.
 
 > ### Description
 >
