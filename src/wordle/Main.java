@@ -261,7 +261,7 @@ public class Main {
         				} if (tryNumber == 6) {
     					
         					clear();
-        					try5 = Calculate.result(wordleChars, attemptChars);
+        					try6 = Calculate.result(wordleChars, attemptChars);
         					System.out.println(try1);
         					System.out.println(try2);
         					System.out.println(try3);
