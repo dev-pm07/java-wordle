@@ -7,10 +7,13 @@
 > ### Prerequisite
 > Just have JRE or JDK 18 installed to run this program.
 
-> ### How to Download and Run
+> ### How to Download and Install
 >
-> 1. Just go to the *Releases* and download the zip and unzip in a location of your preference.
-> 2. Navigate into the project and open the Terminal or CMD in the project folder and execute `java -jar wordle.jar`
+> #### Windows
+> You can get the installable in latest releases.
+>
+> #### Linux and Mac
+> Support is coming soon!
 
 > ### A Few Changes
 >
