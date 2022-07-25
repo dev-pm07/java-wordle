@@ -14,4 +14,4 @@
 
 > ### A Few Changes
 >
-> As I am an amateur coder, I made some small compromises (doesn't affect the overall game). First, I display only the number of double letters and not show them in the word itself; this makes the game a little more difficult. To counter it, I added 1 more try so you get a total of 7 tries.
+> As I am an amateur coder, I made some small compromises (doesn't affect the overall game). First, I display only the number of double letters and not show them in the word itself; this makes the game a little more difficult. To counter it, I added 1 more try so you get a total of 7 tries. Also, when 2 of the same letters in a guess are the same, there could be only be one depending on the display of the multiple letters.

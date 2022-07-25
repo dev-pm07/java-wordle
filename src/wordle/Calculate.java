@@ -3,9 +3,10 @@ package wordle;
 public class Calculate {
 
 	public static String[] resultArray = {"", "", "", "", "", ""};
-	public static final String TEXT_YELLOW = "\u001B[33m";
-	public static final String TEXT_GREEN = "\u001B[32m";
-	public static final String TEXT_RESET = "\u001B[0m";
+	public static final String TEXT_YELLOW = "<html> <font color = 'yellow'>";
+	public static final String TEXT_GREEN = "<html> <font color = 'green'>";
+	public static final String TEXT_NORMAL = "<html> <font color = '#F5F5DC'>";
+	public static final String TEXT_RESET = "</font> <html>";
 	
 	public static String result(String[] wordle, String[] attempt) {
 		
@@ -26,7 +27,7 @@ public class Calculate {
 				!attempt[0].equals(wordle[3]) &&
 				!attempt[0].equals(wordle[4])) {
 			
-			resultArray[0] = attempt[0];
+			resultArray[0] = TEXT_NORMAL + attempt[0] + TEXT_RESET;
 			
 		}
 		
@@ -47,7 +48,7 @@ public class Calculate {
 				!attempt[1].equals(wordle[3]) &&
 				!attempt[1].equals(wordle[4])) {
 			
-			resultArray[1] = attempt[1];
+			resultArray[1] = TEXT_NORMAL + attempt[1] + TEXT_RESET;
 			
 		}
 		
@@ -68,7 +69,7 @@ public class Calculate {
 				!attempt[2].equals(wordle[3]) &&
 				!attempt[2].equals(wordle[4])) {
 			
-			resultArray[2] = attempt[2];
+			resultArray[2] = TEXT_NORMAL + attempt[2] + TEXT_RESET;
 			
 		}
 		
@@ -89,7 +90,7 @@ public class Calculate {
 				!attempt[3].equals(wordle[3]) &&
 				!attempt[3].equals(wordle[4])) {
 			
-			resultArray[3] = attempt[3];
+			resultArray[3] = TEXT_NORMAL + attempt[3] + TEXT_RESET;
 			
 		}
 		
@@ -110,7 +111,7 @@ public class Calculate {
 				!attempt[4].equals(wordle[3]) &&
 				!attempt[4].equals(wordle[4])) {
 			
-			resultArray[4] = attempt[4];
+			resultArray[4] = TEXT_NORMAL + attempt[4] + TEXT_RESET;
 			
 		}
 		
